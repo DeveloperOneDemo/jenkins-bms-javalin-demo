@@ -25,7 +25,8 @@ public class DBUtil {
 		// design pattern - singleton design pattern
 		
 		//step 2
-		String connectionUrl = "jdbc:postgresql://localhost:5432/bms";
+		String connectionUrl = "jdbc:postgresql://database-2.cw4qvkziiwtm.us-east-1.rds.amazonaws.com:5432/bms";
+		//String connectionUrl = "jdbc:postgresql://localhost:5432/bms";
 		String userName = "postgres";
 		String password = "root";
 		
