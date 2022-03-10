@@ -15,7 +15,7 @@ public interface BookDao {
 	BookPojo addBook(BookPojo bookPojo)throws SystemException;
 	// Update
 	BookPojo updateBook(BookPojo bookPojo)throws SystemException;
-	// Delete
+	// Delete   
 	BookPojo deleteBook(int bookId)throws SystemException;
 	// Read - fetch a book
 	BookPojo fetchABook(int bookId)throws SystemException;
