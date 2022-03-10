@@ -8,7 +8,7 @@ import pojo.BookPojo;
 
 public interface BookDao {
 	// public static final
-	             
+	               
 	// Read - fetch all books
 	List<BookPojo> fetchAllBooks()throws SystemException, BooksNotFoundException;
 	// Create
