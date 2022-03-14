@@ -1,5 +1,7 @@
 CREATE DATABASE bms;
 
+\c bms;
+
 CREATE TABLE book_details(book_id INT GENERATED ALWAYS AS IDENTITY, 
 						  book_title VARCHAR(100), 
 						  book_author VARCHAR(20), 
