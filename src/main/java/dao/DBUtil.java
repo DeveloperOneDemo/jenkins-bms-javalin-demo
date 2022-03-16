@@ -29,7 +29,7 @@ public class DBUtil {
 		//String connectionUrl = "jdbc:postgresql://database-2.cw4qvkziiwtm.us-east-1.rds.amazonaws.com:5432/bms";
 		//String connectionUrl = "jdbc:postgresql://localhost:5432/bms";
 		//String connectionUrl = "jdbc:postgresql://10.0.0.88:8888/bms";
-		String connectionUrl = "jdbc:postgresql://ec2-18-216-2-99.us-east-2.compute.amazonaws.com:8888/bms";
+		String connectionUrl = "jdbc:postgresql://ip-172-31-44-226.us-east-2.compute.internal:8888/bms";
 		
 		String userName = "postgres";
 		String password = "mysecretpassword";
