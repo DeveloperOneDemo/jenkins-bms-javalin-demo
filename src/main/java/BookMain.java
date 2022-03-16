@@ -86,19 +86,19 @@ public class BookMain {
 		});
 		
 		// this is the catch block for SystemException
-		myServer.exception(SystemException.class,(se, ctx)->{
-			Map<String, String> error = new HashMap<String, String>();
-			error.put("message", se.getMessage());
-			error.put("datetime", LocalDateTime.now()+"");
-			ctx.json(error);
-		} );
-		
-		myServer.exception(BooksNotFoundException.class,(be, ctx)->{
-			Map<String, String> error = new HashMap<String, String>();
-			error.put("message", be.getMessage());
-			error.put("datetime", LocalDateTime.now()+"");
-			ctx.json(error);
-		} );
+//		myServer.exception(SystemException.class,(se, ctx)->{
+//			Map<String, String> error = new HashMap<String, String>();
+//			error.put("message", se.getMessage());
+//			error.put("datetime", LocalDateTime.now()+"");
+//			ctx.json(error);
+//		} );
+//		
+//		myServer.exception(BooksNotFoundException.class,(be, ctx)->{
+//			Map<String, String> error = new HashMap<String, String>();
+//			error.put("message", be.getMessage());
+//			error.put("datetime", LocalDateTime.now()+"");
+//			ctx.json(error);
+//		} );
 	}
 
 }
