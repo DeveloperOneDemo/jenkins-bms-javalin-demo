@@ -1,6 +1,8 @@
 CREATE DATABASE bms;
 
-CREATE TABLE IF NOT EXISTS bms.book_details(book_id INT GENERATED ALWAYS AS IDENTITY, 
+\c bms;
+
+CREATE TABLE IF NOT EXISTS book_details(book_id INT GENERATED ALWAYS AS IDENTITY, 
 										  book_title VARCHAR(100), 
 										  book_author VARCHAR(20), 
 										  book_genre VARCHAR(20), 
